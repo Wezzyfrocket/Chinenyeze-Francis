@@ -125,6 +125,15 @@ button { cursor: pointer; }
 .profile-list li { display: flex; justify-content: space-between; gap: 20px; border-bottom: 1px dotted hsl(var(--border)); padding-bottom: 10px; font-size: .76rem; }
 .profile-list span:first-child { color: hsl(var(--muted-foreground)); }
 .profile-list span:last-child { text-align: right; font-weight: 700; }
+.experience-trail { margin-top: 70px; border-top: 1px solid hsl(var(--border)); }
+.experience-label { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0; color: hsl(var(--muted-foreground)); font-size: .64rem; }
+.experience-location { font: .64rem var(--app-font-mono); }
+.experience-list { border-top: 1px solid hsl(var(--border)); }
+.experience-item { display: grid; grid-template-columns: 190px 1fr; gap: 30px; padding: 24px 0; border-bottom: 1px solid hsl(var(--border)); }
+.experience-period { color: hsl(var(--primary)); font-size: .64rem; padding-top: 4px; }
+.experience-item h3 { margin: 0; font-size: 1.06rem; }
+.experience-org { margin: 5px 0 10px; font-size: .79rem; font-weight: 800; }
+.experience-detail { max-width: 610px; color: hsl(var(--muted-foreground)); font-size: .78rem; line-height: 1.65; margin: 0; }
 
 .case-study { background: hsl(var(--secondary)); color: hsl(42 40% 98%); position: relative; }
 .case-study:before { content: 'CASE / 01'; position: absolute; top: 38px; right: 5vw; color: hsl(42 40% 98% / .35); font: 500 .68rem var(--app-font-mono); letter-spacing: .14em; }
@@ -198,6 +207,7 @@ button { cursor: pointer; }
 .contact h2 { max-width: 760px; font-size: clamp(3.3rem, 7vw, 7.8rem); line-height: .86; margin: 26px 0; }
 .contact p { max-width: 440px; font-size: .86rem; line-height: 1.7; }
 .contact-link { display: inline-flex; align-items: center; gap: 12px; margin-top: 25px; border-bottom: 1px solid hsl(var(--secondary)); padding-bottom: 8px; font-weight: 800; }
+.contact-link:hover { opacity: .72; }
 .contact-note { border-left: 1px solid hsl(var(--secondary) / .4); padding-left: 26px; font-size: .72rem; line-height: 1.65; }
 .footer { background: hsl(var(--secondary)); color: hsl(42 40% 98% / .6); padding: 21px 0; font-size: .66rem; }
 .footer-inner { display: flex; justify-content: space-between; gap: 20px; }
@@ -224,6 +234,8 @@ button { cursor: pointer; }
   .profile-grid, .practice-grid { grid-template-columns: 1fr; }
   .profile-block, .profile-block:nth-child(2), .practice-card, .practice-card + .practice-card { border: 0; padding: 26px 0; }
   .profile-block + .profile-block, .practice-card + .practice-card { border-top: 1px solid hsl(var(--border)); }
+  .experience-trail { margin-top: 48px; }
+  .experience-item { grid-template-columns: 1fr; gap: 9px; padding: 22px 0; }
   .case-sticky { position: static; }
   .case-title { max-width: 650px; }
   .diary-table-head, .diary-row { grid-template-columns: 1fr 77px 44px; }

@@ -21,6 +21,27 @@ export const diaryEntries = [
   ['3D scanning, modelling, and clinical protocols for lower-limb prosthetic management, with specialization in digital process for transtibial prosthetics', '5 Nov 2025', '24'],
 ] as const;
 
+export const professionalExperience = [
+  {
+    period: 'NOV 2025 — PRESENT',
+    role: 'Prosthetist & Orthotist',
+    organisation: 'Instalimb',
+    detail: 'Digital manufacturing for prosthetics and orthotics, with a focus on clinically grounded design and 3D workflows.',
+  },
+  {
+    period: '2021 — 2022',
+    role: 'Prosthetist & Orthotist',
+    organisation: '44 Nigeria Army Reference Hospital, Kaduna',
+    detail: 'Clinical practice within a hospital rehabilitation setting.',
+  },
+  {
+    period: '2019 — PRESENT',
+    role: 'Volunteer writer',
+    organisation: 'Rehab Edge',
+    detail: 'Sharing rehabilitation and prosthetics and orthotics knowledge through writing.',
+  },
+] as const;
+
 export const evidenceTabs = {
   practice: {
     label: 'Practice',

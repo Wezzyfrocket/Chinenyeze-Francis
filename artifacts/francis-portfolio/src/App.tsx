@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { ArrowDownRight, ArrowUpRight, ChevronDown, Menu, X } from 'lucide-react';
-import { diaryEntries, evidenceTabs } from './data';
+import { ArrowDownRight, ArrowUpRight, ChevronDown, ExternalLink, Menu, X } from 'lucide-react';
+import { diaryEntries, evidenceTabs, professionalExperience } from './data';
 
 type TabKey = keyof typeof evidenceTabs;
 
@@ -63,7 +63,7 @@ function App() {
             <div className="hero-copy reveal">
               <div className="eyebrow">Prosthetics / Orthotics / Clinical practice</div>
               <h1 className="display">Evidence for <em>better movement.</em></h1>
-              <p className="hero-lede">I am Francis Onyema Chinenyeze — a prosthetist and orthotist working across patient-centred care, gait analysis, digital design and fabrication.</p>
+              <p className="hero-lede">I am Francis Onyema Chinenyeze — a prosthetist and orthotist in Abuja, working across patient-centred care, gait analysis, digital design and 3D fabrication.</p>
               <div className="hero-actions">
                 <button className="button-primary" onClick={() => jumpTo('case-study')} data-testid="button-view-case-study">Read the case study <ArrowDownRight size={16} /></button>
                 <button className="button-text" onClick={() => jumpTo('evidence')} data-testid="button-view-cpd">Explore CPD evidence <ArrowDownRight size={15} /></button>
@@ -98,16 +98,36 @@ function App() {
             <div className="profile-grid">
               <div className="profile-block">
                 <h3 className="mono">POSITION</h3>
-                <p>I am interested in advanced practice, education, lecturing, mentorship and practice education — with a particular focus on making evidence useful at the point of care.</p>
+                <p>Currently at Instalimb, I work where clinical judgement meets digital manufacturing. My interests include advanced practice, education, lecturing, mentorship and practice education — with a particular focus on making evidence useful at the point of care.</p>
               </div>
               <div className="profile-block">
                 <h3 className="mono">AT A GLANCE</h3>
                 <ul className="profile-list">
                   <li><span>Profession</span><span>Prosthetics &amp; orthotics</span></li>
-                  <li><span>Employer</span><span>Instalimb</span></li>
-                  <li><span>Qualification</span><span>B.Tech, Prosthetics &amp; Orthotics</span></li>
+                  <li><span>Based in</span><span>Abuja, Nigeria</span></li>
+                  <li><span>Current role</span><span>Prosthetist &amp; Orthotist · Instalimb</span></li>
+                  <li><span>Digital practice</span><span>3D printing · Rhino 3D</span></li>
+                  <li><span>Education</span><span>Prosthetics &amp; Orthotics · FUTO</span></li>
                   <li><span>Registration reference</span><span>MR/22/0167</span></li>
                 </ul>
+              </div>
+            </div>
+            <div className="experience-trail">
+              <div className="experience-label">
+                <span className="mono">SELECTED EXPERIENCE</span>
+                <span className="experience-location">ABUJA / NIGERIA</span>
+              </div>
+              <div className="experience-list">
+                {professionalExperience.map(item => (
+                  <article className="experience-item" key={`${item.organisation}-${item.period}`}>
+                    <span className="experience-period mono">{item.period}</span>
+                    <div>
+                      <h3>{item.role}</h3>
+                      <p className="experience-org">{item.organisation}</p>
+                      <p className="experience-detail">{item.detail}</p>
+                    </div>
+                  </article>
+                ))}
               </div>
             </div>
           </div>
@@ -177,7 +197,7 @@ function App() {
 
         <section className="contact" id="contact">
           <div className="container-wide contact-grid">
-            <div><div className="eyebrow">05 / Next step</div><h2 className="display">Let’s talk about the work.</h2><p>For a clinical collaboration, practice education conversation or a role where thoughtful making matters, I would welcome a considered conversation.</p><div className="contact-link" aria-label="Professional contact details available on request">Professional contact details available on request <ArrowUpRight size={17} /></div></div>
+            <div><div className="eyebrow">05 / Next step</div><h2 className="display">Let’s talk about the work.</h2><p>For a clinical collaboration, practice education conversation or a role where thoughtful making matters, I would welcome a considered conversation.</p><a className="contact-link" href="https://www.linkedin.com/in/chinenyeze-francis-onyema/" target="_blank" rel="noreferrer" aria-label="Open Francis Onyema Chinenyeze's LinkedIn profile">View my LinkedIn profile <ExternalLink size={16} /></a></div>
             <div className="contact-note"><span className="mono">A NOTE ON EVIDENCE</span><br /><br />This presentation is based on Francis Onyema Chinenyeze’s CPD portfolio and reflective entry. Synthetic diagrams are labelled as explanatory representations. No patient-identifying imagery, fabricated testimonials or unverified outcome claims are used.</div>
           </div>
         </section>
