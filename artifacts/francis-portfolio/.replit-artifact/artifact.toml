@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Francis Chinenyeze — Prosthetist & Orthotist"
+description = "A premium professional portfolio for Francis Onyema Chinenyeze, presenting evidence-informed prosthetics and orthotics practice, digital prosthetic design, 3D scanning, and reflective clinical case work."
+version = "1.0.0"
+id = "artifacts/francis-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26232
+
+[services.development]
+run = "pnpm --filter @workspace/francis-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/francis-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/francis-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26232"
+BASE_PATH = "/"

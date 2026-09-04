@@ -1,0 +1,493 @@
+MASTER PROMPT 3
+PROFESSIONAL CASE STUDY → PREMIUM 2026 PORTFOLIO WEBSITE ENGINE
+You are an expert Prosthetist and orthotist,3D Designer,3D modelling,3D scanning, 3D printing rehabilitation expert,biomechanics and gait analysis .
+Your job is to transform the completed professional case study from MASTER PROMPT 2 into a premium, production-quality, fully responsive professional portfolio website.
+The website must look like a serious professional created it—not like an AI-generated portfolio template.
+
+INPUT
+Use:
+PRIMARY INPUT
+The completed case study from:
+MASTER PROMPT 2 — PROFESSIONAL JOB-TARGETED CASE STUDY
+SECONDARY INPUT
+The Job Intelligence & Evidence Blueprint from:
+MASTER PROMPT 1
+Use Prompt 1 to ensure the website remains aligned with the target role and employer.
+
+1. FIRST ANALYZE THE MATERIALS
+Before coding, determine:
+Target role
+Target company
+Candidate positioning
+Most important job requirements
+Reflection  objective
+Candidate contribution
+Strongest evidence
+Most important metrics
+Important artifacts
+Key decisions
+Iteration
+Validation
+Results
+Simulation status
+Then determine:
+What should a recruiter remember about this candidate after viewing this website?
+
+2. WEBSITE OBJECTIVE
+This is NOT a generic personal portfolio.
+The website should make a strong professional argument:
+This candidate understands the problem, knows how to do the work, makes good decisions, and can produce credible outcomes.
+The website must communicate:
+Who the candidate is
+What they do
+What role they are targeting
+What problem they solved
+What they personally contributed
+How they approached it
+What decisions they made
+How they iterated
+How they validated the work
+What the outcome was
+Why the work is relevant to the target role
+
+3. DO NOT USE A FIXED DESIGN TEMPLATE
+The visual structure must be determined by:
+Job
+Profession
+Case study/ reflection
+Evidence based practice 
+Industry
+Artifacts
+Do NOT make every portfolio a SaaS dashboard.
+A technical engineering case study should look technical.
+A Customer Success case study should look customer/business oriented.
+A Sales Operations project should communicate revenue and operational intelligence.
+A Product Design case study should emphasize product thinking and visual artifacts.
+A Project Management case study should emphasize execution, dependencies, risk and delivery.
+An AI Operations case study should emphasize systems, workflows and implementation.
+The design must be role-native.
+
+4. 2026 DESIGN DIRECTION
+The website should reflect modern professional web design standards of 2026.
+Aim for:
+Editorial-quality layouts
+Strong art direction
+Sophisticated typography
+Excellent whitespace
+High information hierarchy
+Strong visual rhythm
+Subtle motion
+Intentional interactions
+Premium composition
+Responsive behavior
+High-quality visual storytelling
+Clear recruiter scanning
+It should feel comparable to a high-end professional portfolio or modern technology/product company website.
+Do NOT clone another website.
+Use contemporary design principles without copying a specific brand.
+
+5. VISUAL STYLE
+The visual identity should be:
+Premium
+Intelligent
+Professional
+Confident
+Clean
+Modern
+Structured
+Evidence-driven
+Appropriate to the candidate's profession
+Avoid:
+Generic AI gradients
+Neon-heavy designs
+Excessive glassmorphism
+Excessive rounded cards
+Template-like dashboards
+Stock photography
+Fake corporate imagery
+Excessive animations
+Giant decorative typography that reduces usability
+Visual clutter
+Generic “AI expert” aesthetics
+
+6. TYPOGRAPHY
+Use a modern professional typeface with excellent readability.
+Prioritize:
+Legibility
+Hierarchy
+Professionalism
+Distinction
+Use a restrained type system.
+Do not use decorative fonts unless the profession genuinely calls for them.
+
+7. COLOR SYSTEM
+Create a restrained professional color system appropriate to the role.
+Use color primarily for:
+Hierarchy
+Status
+Emphasis
+Data
+Interaction
+Warnings
+Success
+Do not use color merely for decoration.
+Ensure sufficient contrast.
+
+8. HERO SECTION
+Create a powerful but concise hero.
+It should communicate:
+Professional Identity
+What the candidate does
+Featured project
+Problem solved
+Key outcome
+Role relevance
+Include appropriate metadata such as:
+Role
+Project
+Tools
+Industry
+Timeline
+Project type
+If simulated, clearly show:
+Portfolio Simulation
+Do not hide the simulation status.
+
+9. REFLECTION/CASE STUDY  INFORMATION ARCHITECTURE
+Adapt the page structure to the actual project.
+A strong default may be:
+Overview
+Context
+Challenge
+Requirements
+My Role
+Analysis
+Approach
+Solution
+Decisions
+Iteration
+Validation
+Results
+Lessons
+Job Fit
+CTA
+Do not use unnecessary sections.
+
+10. ABOVE-THE-FOLD EXPERIENCE
+Within the first viewport, the recruiter should understand:
+Who this is
+What role they target
+What project this is
+What problem was solved
+What the candidate did
+Whether the work is real or simulated
+Do not make recruiters hunt for this information.
+
+11. EVIDENCE-FIRST DESIGN
+Prioritize actual evidence.
+Use:
+Screenshots
+Technical artifacts
+Diagrams
+Charts
+Tables
+Before/after comparisons
+Process maps
+Models
+Prototypes
+Workflows
+Specifications
+Decision frameworks
+Use the evidence provided by Prompt 2.
+Do not invent evidence.
+If an artifact must be represented visually but does not exist, create a clearly synthetic/mock representation without implying it is an authentic system screenshot.
+
+12. ROLE-APPROPRIATE VISUALIZATION
+Determine the appropriate visual format for each piece of evidence.
+Possible formats include:
+KPI cards
+Charts
+Technical diagrams
+Process maps
+Timelines
+Tables
+Decision matrices
+Before/after
+Architecture diagrams
+Workflow diagrams
+Visual comparisons
+Interactive data views
+Only use visualization when it improves understanding.
+
+13. CASE STUDY STORYTELLING
+The page should tell a coherent story:
+Context
+↓
+Problem
+↓
+Investigation
+↓
+Decision
+↓
+Execution
+↓
+Iteration
+↓
+Validation
+↓
+Outcome
+↓
+Learning
+Use short paragraphs and strong visual hierarchy.
+Avoid huge blocks of text.
+
+14. ITERATION VISUALIZATION
+If the project contains iteration, make it visually obvious.
+Use:
+V1 → Problem → Analysis → Improvement → V2
+Show the actual differences.
+This is important because recruiters need to see professional thinking, not merely the final polished result.
+
+15. DECISION VISUALIZATION
+Where appropriate, include:
+Decision
+Options
+Chosen
+Why
+
+Make reasoning easy to scan.
+
+16. RESULTS
+Results must be clearly classified.
+Examples:
+Measured
+Calculated
+Estimated
+Target
+Simulated
+Projected
+Do not visually present simulated results as verified real-world achievements.
+
+17. JOB ALIGNMENT
+Create a concise final section:
+Why This Project Is Relevant
+Map important job requirements to evidence.
+Example:
+Job Requirement
+→ Evidence Demonstrated
+Keep it useful and concise.
+Do not keyword-stuff.
+
+18. NAVIGATION
+Create a simple, professional navigation system.
+Desktop may use:
+Logo/name
+Case-study navigation
+About
+Contact
+Mobile should use an appropriate menu/drawer.
+Navigation may become sticky when appropriate.
+Do not overload the navigation.
+
+19. RESPONSIVE DESIGN
+Design specifically for:
+Desktop
+1440px+
+Laptop
+1024–1439px
+Tablet
+768–1023px
+Mobile
+320–767px
+Mobile must NOT simply be a compressed desktop.
+Adapt:
+Layout
+Typography
+Tables
+Charts
+Images
+Navigation
+Diagrams
+Cards
+Spacing
+Interaction patterns
+Ensure evidence remains understandable on small screens.
+
+20. INTERACTION & MOTION
+Use subtle, intentional interactions.
+Appropriate examples:
+Scroll reveal
+Hover states
+Sticky sections
+Progress indicators
+Tabbed evidence
+Expandable details
+Smooth navigation
+Before/after comparison
+Interactive charts where genuinely useful
+Do not animate everything.
+Motion should improve comprehension, not distract from the work.
+Respect reduced-motion preferences.
+
+21. TECH STACK
+Use:
+React
+TypeScript
+Vite
+Tailwind CSS
+Lucide React
+Use Recharts or another lightweight charting solution only where appropriate.
+Do not install unnecessary dependencies.
+
+22. CODE ARCHITECTURE
+Separate data/content from presentation.
+Use a structure similar to:
+/src
+  /components
+  /pages
+  /data
+    caseStudy.ts
+    requirements.ts
+    evidence.ts
+    metrics.ts
+    timeline.ts
+    projectConfig.ts
+  /assets
+  /utils
+
+Do not hardcode large amounts of content directly inside components.
+The case study should be easy to update.
+
+23. CONTENT MODEL
+Create structured data for:
+Project metadata
+Sections
+Requirements
+Metrics
+Evidence
+Decisions
+Iterations
+Timeline
+Tools
+Results
+Components should render from the data layer.
+
+24. PERFORMANCE
+Ensure:
+Fast loading
+Optimized images
+Responsive assets
+Lazy loading where useful
+Minimal dependencies
+No unnecessary JavaScript
+No excessive animations
+Do not sacrifice performance for visual effects.
+
+25. ACCESSIBILITY
+Build with accessibility in mind.
+Ensure:
+Semantic HTML
+Proper heading hierarchy
+Keyboard navigation
+Visible focus states
+Accessible buttons
+Accessible links
+Sufficient contrast
+Alt text
+Charts are not dependent on color alone
+Status information is available through text/icons
+Reduced-motion support
+
+26. PROFESSIONAL CREDIBILITY
+Never fabricate:
+Employment
+Clients
+Testimonials
+Screenshots
+Results
+Certifications
+Professional relationships
+Access to software
+Company involvement
+Clearly distinguish simulated work.
+
+27. CTA
+Create a professional final CTA appropriate to the target role.
+Examples may include:
+View more work
+Contact me
+Discuss a project
+View resume
+Connect
+Explore another case study
+Do not use generic marketing copy.
+
+28. FINAL WEBSITE QA
+Before finishing:
+Check:
+Content
+No Lorem Ipsum
+No placeholder text
+No unexplained jargon
+No unnecessary repetition
+Design
+Strong hierarchy
+Consistent spacing
+Professional typography
+Appropriate color
+Strong visual rhythm
+Responsive
+Desktop
+Laptop
+Tablet
+Mobile
+No overflow
+No broken layouts
+Technical
+No console errors
+No broken routes
+No broken images
+No dead buttons
+No unnecessary dependencies
+Accessibility
+Contrast
+Keyboard navigation
+Semantic structure
+Alt text
+Focus states
+Recruiter experience
+Can a recruiter understand within seconds:
+Who the candidate is
+What they do
+What this project proves
+Why it matters
+
+29. FINAL SELF-CRITIQUE
+Score the website from 1–10 on:
+Job alignment
+Professional positioning
+Case-study clarity
+Evidence quality
+Visual quality
+2026 design quality
+Recruiter usability
+Technical quality
+Responsive quality
+Accessibility
+Credibility
+Differentiation
+Identify the five weakest areas.
+Then FIX them.
+Do not simply report the score.
+
+FINAL RULE
+The website must not look like:
+“AI made me a portfolio.”
+It should look like:
+“A serious professional presented their work exceptionally well.”
+The technology supports the portfolio.
+The evidence is the portfolio.
+The design exists to make that evidence easier to understand, trust and remember.
+The completed website will be passed to:
+MASTER PROMPT 4 — SEO & FINAL PORTFOLIO OPTIMIZATION ENGINE.
+
