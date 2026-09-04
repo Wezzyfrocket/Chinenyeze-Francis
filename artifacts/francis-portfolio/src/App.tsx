@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ArrowDownRight, ArrowUpRight, ChevronDown, ExternalLink, Menu, X } from 'lucide-react';
-import { diaryEntries, evidenceTabs, professionalExperience } from './data';
+import { credentials, diaryEntries, evidenceTabs, professionalExperience, researchAndService } from './data';
 
 type TabKey = keyof typeof evidenceTabs;
 
@@ -63,7 +63,7 @@ function App() {
             <div className="hero-copy reveal">
               <div className="eyebrow">Prosthetics / Orthotics / Clinical practice</div>
               <h1 className="display">Evidence for <em>better movement.</em></h1>
-              <p className="hero-lede">I am Francis Onyema Chinenyeze — a prosthetist and orthotist in Abuja, working across patient-centred care, gait analysis, digital design and 3D fabrication.</p>
+              <p className="hero-lede">I am Francis Onyema Chinenyeze — a board-certified prosthetist and orthotist in Abuja with over four years of clinical experience across patient-centred care, gait analysis, digital design and 3D fabrication.</p>
               <div className="hero-actions">
                 <button className="button-primary" onClick={() => jumpTo('case-study')} data-testid="button-view-case-study">Read the case study <ArrowDownRight size={16} /></button>
                 <button className="button-text" onClick={() => jumpTo('evidence')} data-testid="button-view-cpd">Explore CPD evidence <ArrowDownRight size={15} /></button>
@@ -98,7 +98,7 @@ function App() {
             <div className="profile-grid">
               <div className="profile-block">
                 <h3 className="mono">POSITION</h3>
-                <p>Currently at Instalimb, I work where clinical judgement meets digital manufacturing. My interests include advanced practice, education, lecturing, mentorship and practice education — with a particular focus on making evidence useful at the point of care.</p>
+                <p>Currently at Instalimb, I work where clinical judgement meets digital manufacturing: from patient assessment and 3D scanning through CAD design, fabrication, fitting and follow-up. My practice is also shaped by teaching, mentorship, community advocacy and a commitment to making evidence useful at the point of care.</p>
               </div>
               <div className="profile-block">
                 <h3 className="mono">AT A GLANCE</h3>
@@ -106,8 +106,10 @@ function App() {
                   <li><span>Profession</span><span>Prosthetics &amp; orthotics</span></li>
                   <li><span>Based in</span><span>Abuja, Nigeria</span></li>
                   <li><span>Current role</span><span>Prosthetist &amp; Orthotist · Instalimb</span></li>
-                  <li><span>Digital practice</span><span>3D printing · Rhino 3D</span></li>
+                  <li><span>Digital practice</span><span>3D scanning · CAD · 3D printing</span></li>
                   <li><span>Education</span><span>Prosthetics &amp; Orthotics · FUTO</span></li>
+                  <li><span>Clinical experience</span><span>4+ years</span></li>
+                  <li><span>Certification</span><span>Board-certified P&amp;O · 2022</span></li>
                   <li><span>Registration reference</span><span>MR/22/0167</span></li>
                 </ul>
               </div>
@@ -128,6 +130,33 @@ function App() {
                     </div>
                   </article>
                 ))}
+              </div>
+            </div>
+            <div className="credentials-trail">
+              <div className="experience-label">
+                <span className="mono">CREDENTIALS / FOCUS</span>
+                <span className="experience-location">CLINICAL / DIGITAL / COMMUNITY</span>
+              </div>
+              <div className="credentials-grid">
+                <div className="credential-list">
+                  {credentials.map(item => (
+                    <article className="credential-item" key={item.title}>
+                      <span className="credential-label mono">{item.label}</span>
+                      <h3>{item.title}</h3>
+                      <p>{item.detail}</p>
+                    </article>
+                  ))}
+                </div>
+                <div className="research-panel">
+                  <span className="credential-label mono">RESEARCH INTERESTS</span>
+                  <div className="interest-list">
+                    {researchAndService.interests.map(item => <span key={item}>{item}</span>)}
+                  </div>
+                  <span className="credential-label mono publication-label">SELECTED WRITING</span>
+                  <ul>
+                    {researchAndService.publications.map(item => <li key={item}>{item}</li>)}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

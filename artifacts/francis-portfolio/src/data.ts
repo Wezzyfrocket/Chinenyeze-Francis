@@ -26,21 +26,65 @@ export const professionalExperience = [
     period: 'NOV 2025 — PRESENT',
     role: 'Prosthetist & Orthotist',
     organisation: 'Instalimb',
-    detail: 'Digital manufacturing for prosthetics and orthotics, with a focus on clinically grounded design and 3D workflows.',
+    detail: 'Clinical and technical practice across patient assessment, 3D scanning, CAD-based socket and orthosis design, 3D printing, fitting, follow-up and digital workflow supervision.',
   },
   {
-    period: '2021 — 2022',
-    role: 'Prosthetist & Orthotist',
+    period: 'JAN 2023 — OCT 2025',
+    role: 'Certified Prosthetist & Orthotist',
+    organisation: 'Sun-Tech Prosthetics and Orthotics, Abuja',
+    detail: 'Assessment, treatment planning, biomechanical analysis and custom orthotic fabrication across spinal, scoliosis and other musculoskeletal presentations.',
+  },
+  {
+    period: 'JUL 2021 — AUG 2022',
+    role: 'Certified Prosthetist & Orthotist',
     organisation: '44 Nigeria Army Reference Hospital, Kaduna',
-    detail: 'Clinical practice within a hospital rehabilitation setting.',
+    detail: 'Hospital rehabilitation practice spanning assessment, measurements, static and dynamic alignment, device education and student mentorship.',
   },
   {
-    period: '2019 — PRESENT',
+    period: 'SELECTED TEACHING',
+    role: 'Clinical mentor & educator',
+    organisation: 'Shehu Idris College of Health Sciences and Technology, Kaduna',
+    detail: 'Mentored undergraduate students in biomechanics, socket technology, prosthetic design, clinical gait analysis, ethics and practice.',
+  },
+  {
+    period: 'AUG 2016 — PRESENT',
+    role: 'Volunteer writer & lead advocate',
+    organisation: 'The IREDE Foundation',
+    detail: 'Advocating for the wellbeing, education and inclusion of children with limb difference through research-led writing and community outreach.',
+  },
+  {
+    period: 'SEP 2019 — PRESENT',
     role: 'Volunteer writer',
     organisation: 'Rehab Edge',
-    detail: 'Sharing rehabilitation and prosthetics and orthotics knowledge through writing.',
+    detail: 'Writing and editing accessible content on rehabilitation practice, prosthetics and orthotics, and emerging developments.',
   },
 ] as const;
+
+export const credentials = [
+  {
+    label: 'Professional certification',
+    title: 'Certified Prosthetist & Orthotist',
+    detail: 'Medical Rehabilitation and Therapy Board of Nigeria · February 2022',
+  },
+  {
+    label: 'Digital fabrication',
+    title: 'Practitioner-level 3D technology',
+    detail: 'Instalimb Digital Fabrication Program · Level 1 and 2 printer maintenance',
+  },
+  {
+    label: 'Safety & care',
+    title: 'First Aid / CPR',
+    detail: 'Nigerian Red Cross Society · August 2019',
+  },
+] as const;
+
+export const researchAndService = {
+  interests: ['Rehabilitation engineering', 'Clinical gait analysis', 'Foot and ankle biomechanics', 'Orthotics, prosthetics & exoskeletons'],
+  publications: [
+    'Tips for amplifying your success as a lower limb prosthetic user · 2019',
+    'The K-Levels for Lower Limb Amputees · 2019',
+  ],
+} as const;
 
 export const evidenceTabs = {
   practice: {
