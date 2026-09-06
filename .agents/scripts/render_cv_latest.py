@@ -3,7 +3,7 @@ from pathlib import Path
 import fitz
 
 
-PDF_PATH = Path("attached_assets/Chinenyeze_Francis_Onyema_CV_1788683194180.pdf")
+PDF_PATH = Path("attached_assets/Chinenyeze_Francis_Onyema_CV_1788684896034.pdf")
 OUTPUT_DIR = Path(".agents/outputs/cv-latest-pages")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
