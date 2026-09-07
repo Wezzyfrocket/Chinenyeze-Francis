@@ -44,6 +44,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+section { scroll-margin-top: 92px; }
 body {
   margin: 0;
   background: hsl(var(--background));
@@ -71,9 +72,9 @@ button { cursor: pointer; }
 .wordmark { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -.05em; }
 .wordmark-mark { display: grid; place-items: center; width: 29px; height: 29px; border: 1px solid hsl(var(--primary)); color: hsl(var(--primary)); font: 500 .68rem var(--app-font-mono); }
 .nav-links { display: flex; align-items: center; gap: 28px; color: hsl(var(--muted-foreground)); font-size: .77rem; font-weight: 700; }
-.nav-links a { transition: color .2s ease; }
-.nav-links a:hover, .nav-links a.is-active { color: hsl(var(--primary)); }
-.nav-contact { border-bottom: 1px solid hsl(var(--primary)); padding-bottom: 4px; color: hsl(var(--foreground)) !important; }
+.nav-links button { border: 0; background: transparent; padding: 0; color: inherit; transition: color .2s ease, border-color .2s ease; }
+.nav-links button:hover, .nav-links button.is-active { color: hsl(var(--primary)); }
+.nav-contact { border-bottom: 1px solid hsl(var(--primary)) !important; padding-bottom: 4px !important; color: hsl(var(--foreground)) !important; }
 .menu-button { display: none; border: 0; background: transparent; color: hsl(var(--foreground)); padding: 8px; }
 
 .hero { min-height: 760px; padding: 160px 0 100px; position: relative; }
@@ -87,6 +88,7 @@ button { cursor: pointer; }
 .button-primary { display: inline-flex; align-items: center; gap: 10px; background: hsl(var(--primary)); color: hsl(var(--primary-foreground)); padding: 14px 19px; border: 1px solid hsl(var(--primary)); font-weight: 700; font-size: .79rem; transition: background .2s ease, transform .2s ease; }
 .button-primary:hover { background: hsl(var(--secondary)); transform: translateY(-2px); }
 .button-text { display: inline-flex; gap: 9px; align-items: center; color: hsl(var(--foreground)); border-bottom: 1px solid hsl(var(--foreground)); padding: 6px 0; font-size: .78rem; font-weight: 700; }
+.button-text:hover { color: hsl(var(--primary)); border-color: hsl(var(--primary)); }
 .hero-note { margin-top: 65px; display: flex; gap: 25px; align-items: flex-start; color: hsl(var(--muted-foreground)); font-size: .72rem; line-height: 1.55; max-width: 470px; }
 .hero-note-line { width: 38px; border-top: 1px solid hsl(var(--accent)); margin-top: 8px; flex: 0 0 auto; }
 
@@ -192,6 +194,7 @@ button { cursor: pointer; }
 .hours-foot { position: absolute; bottom: 28px; left: 32px; right: 32px; display: flex; justify-content: space-between; border-top: 1px solid hsl(42 40% 98% / .25); padding-top: 13px; font: .62rem var(--app-font-mono); color: hsl(42 40% 98% / .7); }
 .evidence-tabs { display: flex; gap: 8px; border-bottom: 1px solid hsl(var(--border)); margin-bottom: 22px; }
 .evidence-tab { border: 0; border-bottom: 2px solid transparent; background: transparent; color: hsl(var(--muted-foreground)); padding: 11px 5px; font-size: .76rem; font-weight: 700; }
+.evidence-tab:hover { color: hsl(var(--primary)); }
 .evidence-tab.active { color: hsl(var(--primary)); border-bottom-color: hsl(var(--primary)); }
 .evidence-panel { min-height: 230px; }
 .evidence-panel h3 { margin: 0 0 18px; font-size: 1.05rem; }
@@ -222,6 +225,7 @@ button { cursor: pointer; }
 .contact-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 80px; align-items: end; }
 .contact h2 { max-width: 760px; font-size: clamp(3.3rem, 7vw, 7.8rem); line-height: .86; margin: 26px 0; }
 .contact p { max-width: 440px; font-size: .86rem; line-height: 1.7; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 6px 24px; }
 .contact-link { display: inline-flex; align-items: center; gap: 12px; margin-top: 25px; border-bottom: 1px solid hsl(var(--secondary)); padding-bottom: 8px; font-weight: 800; }
 .contact-link:hover { opacity: .72; }
 .contact-note { border-left: 1px solid hsl(var(--secondary) / .4); padding-left: 26px; font-size: .72rem; line-height: 1.65; }
@@ -264,6 +268,7 @@ button { cursor: pointer; }
   .diary-row { padding: 14px 0; }
   .contact { padding: 88px 0; }
   .contact h2 { font-size: clamp(3.9rem, 16vw, 7rem); }
+  .contact-links { align-items: flex-start; flex-direction: column; gap: 0; }
 }
 @media (max-width: 440px) {
   .container-wide { width: min(100% - 28px, 680px); }

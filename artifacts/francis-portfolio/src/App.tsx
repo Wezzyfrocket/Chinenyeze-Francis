@@ -43,12 +43,12 @@ function App() {
             <span className="wordmark-mark">FO</span>
             <span>Francis Onyema<br /><small style={{ fontWeight: 500, letterSpacing: 0, color: 'hsl(var(--muted-foreground))' }}>Prosthetist &amp; Orthotist</small></span>
           </button>
-          <button className="menu-button" onClick={() => setMenuOpen(open => !open)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} data-testid="button-mobile-menu">
+          <button className="menu-button" onClick={() => setMenuOpen(open => !open)} aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-expanded={menuOpen} aria-controls="site-navigation" data-testid="button-mobile-menu">
             {menuOpen ? <X size={21} /> : <Menu size={21} />}
           </button>
-          <nav className={`nav-links ${menuOpen ? 'open' : ''}`} aria-label="Main navigation">
+          <nav id="site-navigation" className={`nav-links ${menuOpen ? 'open' : ''}`} aria-label="Main navigation">
             {navItems.map(([id, label]) => (
-              <button key={id} className={activeSection === id ? 'is-active' : ''} onClick={() => jumpTo(id)} data-testid={`link-${id}`}>
+              <button key={id} className={activeSection === id ? 'is-active' : ''} onClick={() => jumpTo(id)} aria-current={activeSection === id ? 'location' : undefined} data-testid={`link-${id}`}>
                 {label}
               </button>
             ))}
@@ -70,7 +70,7 @@ function App() {
               </div>
               <div className="hero-note"><span className="hero-note-line" /><span>A professional portfolio of practice and reflection. Source evidence is represented faithfully; reported patient feedback is labelled as reported, not presented as a universal or independently verified outcome.</span></div>
             </div>
-            <div className="anatomy-plate reveal" aria-label="Explanatory clinical systems diagram">
+            <div className="anatomy-plate reveal" role="img" aria-label="Explanatory clinical systems diagram">
               <div className="plate-visual">
                 <div className="plate-ring"><div className="plate-core" /></div>
                 <span className="plate-label top">ASSESS / OBSERVE</span><span className="plate-label side">ITERATE</span><span className="plate-label bottom">MEASURE / REFLECT</span>
