@@ -202,6 +202,10 @@ button { cursor: pointer; }
 .evidence-list { padding: 0; list-style: none; display: grid; gap: 11px; }
 .evidence-list li { display: flex; align-items: baseline; gap: 10px; color: hsl(var(--muted-foreground)); font-size: .76rem; }
 .evidence-list li:before { content: ''; width: 5px; height: 5px; background: hsl(var(--accent)); flex: 0 0 auto; }
+.cpd-latest { display: grid; grid-template-columns: 1fr 1fr; gap: 42px; margin-top: 64px; border-top: 1px solid hsl(var(--border)); border-bottom: 1px solid hsl(var(--border)); padding: 25px 0 28px; }
+.cpd-latest h3 { max-width: 570px; margin: 18px 0 0; font-size: clamp(1.9rem, 3.2vw, 3.4rem); line-height: .98; }
+.cpd-latest-meta { display: block; color: hsl(var(--primary)); font-size: .62rem; }
+.cpd-latest p { max-width: 480px; margin: 18px 0 0; color: hsl(var(--muted-foreground)); font-size: .8rem; line-height: 1.7; }
 .diary-table-wrap { margin-top: 75px; border-top: 1px solid hsl(var(--border)); }
 .diary-table-head { display: grid; grid-template-columns: 1fr 110px 70px; padding: 14px 0; color: hsl(var(--muted-foreground)); font: .64rem var(--app-font-mono); text-transform: uppercase; letter-spacing: .08em; }
 .diary-row { display: grid; grid-template-columns: 1fr 110px 70px; border-top: 1px solid hsl(var(--border)); padding: 15px 0; gap: 12px; align-items: center; }
@@ -277,6 +281,7 @@ button { cursor: pointer; }
   .research-panel { border-top: 1px solid hsl(var(--border)); padding: 25px 0 0; }
   .case-sticky { position: static; }
   .case-title { max-width: 650px; }
+  .cpd-latest { grid-template-columns: 1fr; gap: 20px; margin-top: 48px; }
   .field-note-grid { grid-template-columns: 1fr; gap: 38px; }
   .field-note-evidence { padding: 24px; }
   .diary-table-head, .diary-row { grid-template-columns: 1fr 77px 44px; }

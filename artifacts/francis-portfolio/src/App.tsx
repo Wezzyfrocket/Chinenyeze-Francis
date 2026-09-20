@@ -83,10 +83,10 @@ function App() {
 
         <section className="strip" aria-label="Portfolio summary">
           <div className="container-wide strip-grid">
-            <div className="strip-item"><span className="strip-value">122</span><span className="strip-label">CPD hours recorded<br />period shown in source portfolio</span></div>
-            <div className="strip-item"><span className="strip-value">21</span><span className="strip-label">submitted entries<br />supporting development</span></div>
-            <div className="strip-item"><span className="strip-value">20 / 1</span><span className="strip-label">diary submissions<br />reflective submission</span></div>
-            <div className="strip-item"><span className="strip-value">2025—26</span><span className="strip-label">source portfolio period<br />22 Oct 2025 — 29 Aug 2026</span></div>
+            <div className="strip-item"><span className="strip-value">124</span><span className="strip-label">CPD hours recorded<br />period shown in source portfolio</span></div>
+            <div className="strip-item"><span className="strip-value">22</span><span className="strip-label">submitted entries<br />supporting development</span></div>
+            <div className="strip-item"><span className="strip-value">21 / 1</span><span className="strip-label">diary submissions<br />reflective submission</span></div>
+            <div className="strip-item"><span className="strip-value">2025—26</span><span className="strip-label">source portfolio period<br />20 Sep 2025 — 20 Sep 2026</span></div>
           </div>
         </section>
 
@@ -196,16 +196,20 @@ function App() {
           <div className="container-wide">
             <div className="section-heading cpd-intro">
               <span className="eyebrow">03 / CPD evidence</span>
-              <div><h2 className="display">A record of staying curious.</h2><p>Selected evidence from the CPD portfolio, condensed for scanning. The source records 121.66 hours in detail and presents the portfolio summary as 122 hours.</p></div>
+              <div><h2 className="display">A record of staying curious.</h2><p>Selected evidence from the CPD portfolio, condensed for scanning. The source records 123.66 hours in detail and presents the portfolio summary as 124 hours.</p></div>
             </div>
             <div className="evidence-grid">
-              <div className="hours-card"><span className="eyebrow" style={{ color: 'hsl(42 40% 98% / .75)' }}>Recorded learning</span><div className="hours-number">122</div><p>hours of CPD across professional, educational, technical and reflective activity.</p><div className="hours-foot"><span>22 OCT 2025</span><span>29 AUG 2026</span></div></div>
+              <div className="hours-card"><span className="eyebrow" style={{ color: 'hsl(42 40% 98% / .75)' }}>Recorded learning</span><div className="hours-number">124</div><p>hours of CPD across professional, educational, technical and reflective activity.</p><div className="hours-foot"><span>20 SEP 2025</span><span>20 SEP 2026</span></div></div>
               <div>
                 <div className="evidence-tabs" role="tablist" aria-label="Evidence themes">
                   {(Object.keys(evidenceTabs) as TabKey[]).map(key => <button key={key} role="tab" aria-selected={activeTab === key} className={`evidence-tab ${activeTab === key ? 'active' : ''}`} onClick={() => setActiveTab(key)} data-testid={`tab-evidence-${key}`}>{evidenceTabs[key].label}</button>)}
                 </div>
                 <div className="evidence-panel" role="tabpanel"><h3>{selectedEvidence.title}</h3><p>{selectedEvidence.body}</p><ul className="evidence-list">{selectedEvidence.items.map(item => <li key={item}>{item}</li>)}</ul></div>
               </div>
+            </div>
+            <div className="cpd-latest">
+              <div><span className="eyebrow">Latest entry / 20 Sep 2026</span><h3 className="display">Contemporary care of the limited community ambulator with transfemoral amputation.</h3></div>
+              <div><span className="cpd-latest-meta mono">2 HOURS · PROFESSIONAL · CLINICAL</span><p>A self-paced course focused on K2 and limited community ambulators, covering stability, safety, confidence, mobility, rehabilitation planning, post-prosthetic management and the role of microprocessor knees.</p></div>
             </div>
             <div className="diary-table-wrap">
               <div className="diary-table-head"><span>Selected diary entries</span><span>Date</span><span>Hours</span></div>

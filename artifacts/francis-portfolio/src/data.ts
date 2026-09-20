@@ -1,4 +1,5 @@
 export const diaryEntries = [
+  ['Contemporary Care of the Limited Community Ambulator with Transfemoral Amputation', '20 Sep 2026', '2'],
   ['Undertaking quality improvements initiatives', '29 Aug 2026', '8'],
   ['Across a lifetime: The transformative role of orthotist and prosthetist', '29 Aug 2026', '1'],
   ['Creating community in paediatric O&P', '16 Aug 2026', '0.5'],

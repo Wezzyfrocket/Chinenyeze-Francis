@@ -1,0 +1,76 @@
+pages=75
+PAGE 01:   | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze | Francis Onyema Chinenyeze
+PAGE 02: Professional Information | Profession | Prosthetics and orthotics | Employer | instalimb
+PAGE 03: Total Number of entries submitted  | within this time period to support my  | Learning and Development CPD  | Portfolio | Vs
+PAGE 04:   | Reflective Entries | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life |  
+PAGE 05: Reflective Log | Entry | Date | Title | 1
+PAGE 06: CPD Reflective Entry | Title | Transition from Ischial Containment to Sub-Ischial Transfemoral Socket Design | Date of event being reflected upon | Wednesday 22 October 2025
+PAGE 07: CPD Reflective Entry | and the clinical reasoning required when moving a patient from an ischial containment | design. I gained greater appreciation of the relationship between socket designs, residual- | limb anatomy, suspension system , femoral control and gait. | I also learned the importance of involving the patient throughout the fitting process. Their
+PAGE 08: CPD Reflective Entry | Designs: | A | Review | of
+PAGE 09:   | Learning and Development | Diary Entries | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life
+PAGE 10: CPD Diary Entries | Entry | Date | Development Description | CPD
+PAGE 11: CPD Diary Entries | 21 | 5th Nov 2025 | 3D scanning, modelling, and clinical protocols for | lower-limb prosthetic management, with
+PAGE 12: CPD Development Diary Entry | Title of CPD activity | Contemporary Care of the Limited Community Ambulator with Transfemoral Amputation | This activity was arranged: | Professional
+PAGE 13: CPD Development Diary Entry | microprocessor knees (MPKs), evidence supporting their use, and their potential to improve | safety | and | reduce
+PAGE 14: This is to certify that on | Sep 20, 2026 | Francis Chinenyeze | successfully completed 2.0 contact hours for the self-paced course | Contemporary Care of the Limited Community Ambulator with Transfemoral Amputation
+PAGE 15: CPD Development Diary Entry | Title of CPD activity | Undertaking quality improvements initiatives | This activity was arranged: | Professional
+PAGE 16: CPD Development Diary Entry | equipment and rehabilitation services you offer. | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze
+PAGE 17: CPD Development Diary Entry | Title of CPD activity | Across a lifetime;The transformative role of orthotist and prosthetist | This activity was arranged: | Professional
+PAGE 18: This is to certify that on | Aug 29, 2026 | Francis Chinenyeze | successfully completed 1.0 contact hour for the live course | Across a Lifetime: The Transformative Role of Orthotists and Prosthetists
+PAGE 19: CPD Development Diary Entry | Title of CPD activity | Creating community in paediatric O&P | This activity was arranged: | Education
+PAGE 20: CPD Development Diary Entry | Outcome of the learning activity – how did the learning relate to your work? | The discussion highlights how the new Society is dedicated to fostering confidence among | practitioners through mentorship, shared learning experiences, and the provision of | expanded educational resources. Furthermore, they delve into innovative ad
+PAGE 21: CPD Development Diary Entry | Title of CPD activity | Why clinically relevant matters in O&P (O&P research insights) | This activity was arranged: | Education
+PAGE 22: CPD Development Diary Entry | Outcome of the learning activity – how did the learning relate to your work? | The insights gained from this episode are directly applicable to my professional practice as | they emphasise the vital connection between clinical work and research in the field of O&P. | Understanding the role of clinicians in shaping research has r
+PAGE 23: CPD Development Diary Entry | Title of CPD activity | Biomechanics of partial foot amputation | This activity was arranged: | Professional
+PAGE 24: Certificate of Completion  |   | This certifies that  |   |  
+PAGE 25: CPD Development Diary Entry | Title of CPD activity | Upper extremity orthotics | This activity was arranged: | Professional
+PAGE 26: Certificate of Completion  |   | This certifies that  |   |  
+PAGE 27: CPD Development Diary Entry | Title of CPD activity | Shared decision making in O&P: from tools to conversation | This activity was arranged: | Education
+PAGE 28: Francis Chinenyeze | Jul 24, 2026 | Shared Decision Making in O&P: From Tools to Conversation
+PAGE 29: CPD Development Diary Entry | Title of CPD activity | Comprehensive care of plagiocephaly, torticollis, and early child hood development | This activity was arranged: | Professional
+PAGE 30: FRANCIS CHINENYEZE | COMPREHENSIVE CARE OF PLAGIOCEPHALY, TORTICOLLIS, AND EARLY CHILDHOOD DEVELOPMENT | JUL 17, 2026
+PAGE 31: CPD Development Diary Entry | Title of CPD activity | Outcome measures in lower limb prosthetics : empowering through mobility | This activity was arranged: | Professional
+PAGE 32: FRANCIS CHINENYEZE | OUTCOME MEASURES IN LOWER LIMB PROSTHETICS: EMPOWERING THROUGH MOBILITY | JUL 17, 2026
+PAGE 33: CPD Development Diary Entry | Title of CPD activity | 3D scanning, modelling, and clinical protocols for lower-limb prosthetic management, with | specialization in digital process for trans-femoral prosthetics | This activity was arranged:
+PAGE 34: 3D scanning, modelling, and clinical protocols for | lower-limb prosthetic management, with | specialization in digital process for trans-femoral | prosthetics | Powered by TCPDF (www.tcpdf.org)
+PAGE 35: CPD Development Diary Entry | Title of CPD activity | Does AFO affect muscle activity | This activity was arranged: | Professional
+PAGE 36: CPD Development Diary Entry | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze
+PAGE 37: chinenyeze francis  | Webinar - Do AFOs affect Muscle Activity?  | 04/11/2026 | 60 Minutes
+PAGE 38: CPD Development Diary Entry | Title of CPD activity | Advanced pain management in osteoarthritis | This activity was arranged: | Education
+PAGE 39: CPD Development Diary Entry | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze
+PAGE 40: Onyema Chinenyeze | Webinar - Advanced Pain Management Strategies in Osteoarthritis | 03/21/2026 | 60 Minutes
+PAGE 41: CPD Development Diary Entry | Title of CPD activity | Re-thinking early orthotic intervention on post stroke patients | This activity was arranged: | Professional
+PAGE 42: Onyema Chinenyeze | Webinar - Re-thinking Early Orthotic Intervention in Post-Stroke Patients | 03/20/2026 | 60 Minutes
+PAGE 43: CPD Development Diary Entry | Title of CPD activity | Effect of dynamic knee brace on OA: insights from MAI motion analysis | This activity was arranged: | Professional
+PAGE 44: CPD Development Diary Entry | enabling me to make more evidence-based decisions that could potentially delay the need | for surgical interventions in my patients. | Web address relating to the above activity | n this webinar Professor Paul Lee will present the latest research on the dynamic effects of
+PAGE 45: Onyema Chinenyeze | Webinar - Effects of Dynamic Knee Braces on OA: Insights from MAI Motion Ana… | 03/20/2026 | 60 Minutes
+PAGE 46: CPD Development Diary Entry | Title of CPD activity | Burns and scar management - insights from clinical practice in Germany | This activity was arranged: | Professional
+PAGE 47: CPD Development Diary Entry | treatment strategies, ultimately improving patient outcomes in the management of burns and | scars. | Web address relating to the above activity | https://thuasneacademy.learnupon.com/content-details/318368593/2
+PAGE 48: 
+PAGE 49: CPD Development Diary Entry | Title of CPD activity | Introducing Agilik,a new smart powered orthosis | This activity was arranged: | Professional
+PAGE 50: CPD Development Diary Entry | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze
+PAGE 51: Onyema Chinenyeze | Webinar - Introducing Agilik™ - A new, smart powered orthosis - May 2025 | 03/20/2026 | 1 Hours
+PAGE 52: CPD Development Diary Entry | Title of CPD activity | Body powered to myoelectric solutions for upper limb prostheses | This activity was arranged: | Professional
+PAGE 53: CPD Development Diary Entry | and limitations of each option with patients and their families. Additionally, the application of | clinical decision-making frameworks has enhanced my ability to tailor prosthetic solutions to | meet the specific needs of individuals, while the exploration of future innovations inspires | me to stay updated on advancements that
+PAGE 54: CPD Development Diary Entry | Title of CPD activity | Advanced clinical and technical proficiency in digital prosthetic design ,modelling and | fabrication for complex trans femoral cases | This activity was arranged:
+PAGE 55: Advanced clinical and technical proficiency in digital | prosthetic design ,modelling and fabrication for | complex trans femoral cases | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life
+PAGE 56: CPD Development Diary Entry | Title of CPD activity | Advanced clinical and technical profeciency in digital prosthetic design, modelling and | fabrication for complex transtibial cases | This activity was arranged:
+PAGE 57: CPD Development Diary Entry | https://www.instalimb.com/en | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze
+PAGE 58: Advanced clinical and technical profeciency in digital | prosthetic design, modelling and fabrication for | complex transtibial cases | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life
+PAGE 59: CPD Development Diary Entry | Title of CPD activity | 3D scanning, modelling, and clinical protocols for lower-limb prosthetic management, with | specialization in digital process for trans-tibial prosthetics | This activity was arranged:
+PAGE 60: CPD Development Diary Entry | Powered by TCPDF (www.tcpdf.org) | CPDme - Development for Life | Francis Onyema Chinenyeze
+PAGE 61: 3D scanning, modelling, and clinical protocols for | lower-limb prosthetic management, with | specialization in digital process for trans-tibial | prosthetics | Powered by TCPDF (www.tcpdf.org)
+PAGE 62: Summary of HCPC Standards | 20th Sep 2025 - 20th Sep 2026 | Standard 3: Seek to ensure that my CPD has contributed to the quality of my practice and service delivery. | Standard 4: Seek to ensure that my CPD benefits the service user. | Date
+PAGE 63: Summary of GMC Domains | "I can confirm that this chart displays the true reflection of the GMC Domains that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | 1. Knowledge, Skills and Performance • Provide a good standard of practice and care, and work within your
+PAGE 64: Summary of AHCS Standards | "I can confirm that this chart displays the true reflection of the AHCS Standards that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | Standard 1: Keep a structured record of your continuing professional development (CPD) activity to evidence how you
+PAGE 65: Summary of GOsC Standards | "I can confirm that this chart displays the true reflection of the GOsC Standards that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | Communication and patient partnership - These standards focus on the nature of the therapeutic relationship
+PAGE 66: Summary of GPhC Standards | "I can confirm that this chart displays the true reflection of the GPhC Standards that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | 1. Person-centred care - Person-centred care is delivered when pharmacy professionals understand what is important
+PAGE 67: Summary of GPhC Standards | 17th Jul 2026 | Comprehensive care of plagiocephaly, torticollis, and early | child hood development | 17th Jul 2026
+PAGE 68: Summary of SWE Standards | "I can confirm that this chart displays the true reflection of the SWE Standards that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | Professional Standards
+PAGE 69: Summary of SC Standards | "I can confirm that this chart displays the true reflection of the SC Standards that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | Standard 1: Maintain a continuous, up-to-date, accurate and reflective record of my CPD activities.
+PAGE 70: Summary of PSTT Standards | "I can confirm that this chart displays the true reflection of the PSTT Standards that I have selected each | development activity relates to" | - Francis Onyema Chinenyeze | Standard 1: Meeting Professional Values and Attributes.
+PAGE 71: Knowledge and Skills Framework | 1: Communication Communication has many forms and is a two-way process. It involves identifying what others are | communicating as well as communicating yourself and the development of effective relationships. | 2: Personal and People Development This dimension is about developing yourself and contributing to the | developmen
+PAGE 72: Four Pillars of Advanced Clinical Practice | 1: Clinical Practice Critically reflect on your contribution to the delivery of safe care. Examine your practice in relation | to enhancing person-centred care. | 2: Leadership Examine your practice in relation to how you demonstrate self-leadership. Critically reflect on your | behaviours and actions that impact 
+PAGE 73: IPRS Competencies | 1: Professionalism | 2: Communication | 3: Clinical Skills | 4: Digital Skills
+PAGE 74: Professional Development Supporting Evidence | Contemporary Care of the Limited Community Ambulator with Transfemoral | Amputation | prime_badges (5).pdf | Undertaking quality improvements initiatives
+PAGE 75: CPD Portfolio Declaration | This is a true and accurate representation of my Continued Professional Development | between the periods of 2025-10-22 to 2026-09-20. Where necessary information has | been anonymised and confidentiality respected. | This Portfolio and any files contained or transmitted within are confidential and intended
