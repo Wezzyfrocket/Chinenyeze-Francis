@@ -217,11 +217,11 @@ button { cursor: pointer; }
 .field-note-callout { max-width: 500px; border-left: 2px solid hsl(var(--accent)); padding: 16px 0 16px 18px; color: hsl(var(--secondary)); font-size: .78rem; line-height: 1.65; }
 .field-note-callout strong { font-weight: 800; }
 .field-note-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
-.field-note-gallery { display: flex; justify-content: flex-end; gap: 16px; overflow: hidden; }
-.field-note-gallery figure { width: clamp(170px, 15vw, 228px); flex: 0 1 clamp(170px, 15vw, 228px); margin: 0; border: 1px solid hsl(var(--border)); background: hsl(var(--card)); }
-.field-note-gallery img { display: block; width: 100%; aspect-ratio: 1179 / 2556; object-fit: cover; object-position: top; }
-.field-note-gallery figcaption { min-height: 66px; padding: 11px 12px 13px; color: hsl(var(--muted-foreground)); font-size: .67rem; line-height: 1.45; }
-.field-note-gallery figcaption .mono { color: hsl(var(--primary)); font-size: .58rem; }
+.field-note-evidence { border: 1px solid hsl(var(--border)); background: hsl(var(--card)); padding: 30px; }
+.field-note-evidence h3 { max-width: 370px; margin: 20px 0 15px; font-size: clamp(2rem, 3.2vw, 3.4rem); line-height: .98; }
+.field-note-evidence p { max-width: 360px; color: hsl(var(--muted-foreground)); font-size: .78rem; line-height: 1.65; }
+.field-note-evidence-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 18px; border-bottom: 1px solid hsl(var(--primary)); padding-bottom: 8px; color: hsl(var(--primary)); font-size: .76rem; font-weight: 800; }
+.field-note-evidence-link:hover { color: hsl(var(--secondary)); border-color: hsl(var(--secondary)); }
 
 .practice-section { background: hsl(38 30% 91%); }
 .practice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid hsl(var(--border)); border-bottom: 1px solid hsl(var(--border)); }
@@ -278,8 +278,7 @@ button { cursor: pointer; }
   .case-sticky { position: static; }
   .case-title { max-width: 650px; }
   .field-note-grid { grid-template-columns: 1fr; gap: 38px; }
-  .field-note-gallery { justify-content: flex-start; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; }
-  .field-note-gallery figure { flex: 0 0 min(62vw, 260px); scroll-snap-align: start; }
+  .field-note-evidence { padding: 24px; }
   .diary-table-head, .diary-row { grid-template-columns: 1fr 77px 44px; }
   .diary-row { padding: 14px 0; }
   .contact { padding: 88px 0; }

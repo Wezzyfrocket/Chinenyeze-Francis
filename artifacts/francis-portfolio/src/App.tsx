@@ -229,10 +229,11 @@ function App() {
                 <div className="field-note-callout"><strong>What I brought home.</strong> A deeper interest in 3D prosthetics, CAD/CAM, research and patient-centred healthcare systems — with a clearer sense of how technology can serve clinical reasoning rather than replace it.</div>
                 <div className="field-note-tags"><span className="tool">3D PROSTHETICS</span><span className="tool">CAD / CAM</span><span className="tool">DISABILITY INCLUSION</span><span className="tool">RESEARCH &amp; INNOVATION</span></div>
               </div>
-              <div className="field-note-gallery" aria-label="Images from Francis Onyema Chinenyeze's India training reflection">
-                <figure><img src="/india-training/india-training-introduction.png" alt="Screenshot of the India training reflection introducing the Instalimb, ALIMCO and Jaipur Foot visits" loading="lazy" /><figcaption><span className="mono">01 / TRAINING</span><br />A new view of digital prosthetics in practice.</figcaption></figure>
-                <figure><img src="/india-training/india-training-alimco.png" alt="Screenshot of the India training reflection about visiting ALIMCO in Faridabad and learning about disability identification systems" loading="lazy" /><figcaption><span className="mono">02 / ALIMCO</span><br />Systems that make disability support more accessible.</figcaption></figure>
-                <figure><img src="/india-training/india-training-reflection.png" alt="Screenshot of the India training reflection about Jaipur Foot research, innovation and prosthetic feet" loading="lazy" /><figcaption><span className="mono">03 / JAIPUR</span><br />Research translated into better walking experiences.</figcaption></figure>
+              <div className="field-note-evidence">
+                <span className="eyebrow">Source evidence</span>
+                <h3 className="display">Read the full reflection on LinkedIn.</h3>
+                <p>The complete training reflection, including the India visit and supporting images, is available in the original LinkedIn post.</p>
+                <a className="field-note-evidence-link" href="https://lnkd.in/p/epZydQVb" target="_blank" rel="noreferrer">Open the LinkedIn evidence <ExternalLink size={16} /></a>
               </div>
             </div>
           </div>
