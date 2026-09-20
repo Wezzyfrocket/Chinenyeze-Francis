@@ -96,8 +96,8 @@ export const evidenceTabs = {
   digital: {
     label: 'Digital craft',
     title: 'A digital workflow with clinical intent',
-    body: 'Repeated learning entries show a sustained focus on 3D scanning, modelling and digital fabrication for complex transfemoral and transtibial cases.',
-    items: ['3D scanning and modelling', 'Digital prosthetic design', 'Fabrication protocols', 'Complex lower-limb cases'],
+    body: 'Repeated learning entries show a sustained focus on 3D scanning, modelling and digital fabrication for complex transfemoral and transtibial cases. Recent training in India extended that interest into CAD/CAM, prosthetic-foot research and disability systems.',
+    items: ['3D scanning and modelling', 'Digital prosthetic design', 'Fabrication protocols', 'India training: Instalimb, ALIMCO and Jaipur Foot'],
   },
   development: {
     label: 'Development',

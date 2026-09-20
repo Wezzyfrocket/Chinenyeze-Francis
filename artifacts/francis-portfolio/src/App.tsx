@@ -8,6 +8,7 @@ const navItems = [
   ['about', 'Profile'],
   ['case-study', 'Case study'],
   ['evidence', 'CPD evidence'],
+  ['india-training', 'India training'],
   ['contact', 'Contact'],
 ];
 
@@ -214,9 +215,32 @@ function App() {
           </div>
         </section>
 
+        <section className="section field-note-section" id="india-training">
+          <div className="container-wide">
+            <div className="section-heading">
+              <span className="eyebrow">04 / India field note</span>
+              <div><h2 className="display">Learning what becomes possible when technology meets care.</h2><p>A recent training trip widened my view of 3D prosthetics, digital workflows, disability systems and the role of research in improving mobility.</p></div>
+            </div>
+            <div className="field-note-grid">
+              <div className="field-note-copy">
+                <p>At Instalimb, I explored the practical application of 3D technology in prosthetics: digital workflows, 3D scanning, CAD-based design and the integration of these tools into prosthetic fabrication under the guidance of Swati Jain.</p>
+                <p>Visiting ALIMCO in Faridabad gave me another perspective on disability care, including how the Unique Disability ID system can help connect people with disabilities to documentation and government support.</p>
+                <p>In Jaipur, I became more interested in the research and innovation behind prosthetic feet — and in how devices can continue to be researched, tested, redesigned and improved for better walking experiences.</p>
+                <div className="field-note-callout"><strong>What I brought home.</strong> A deeper interest in 3D prosthetics, CAD/CAM, research and patient-centred healthcare systems — with a clearer sense of how technology can serve clinical reasoning rather than replace it.</div>
+                <div className="field-note-tags"><span className="tool">3D PROSTHETICS</span><span className="tool">CAD / CAM</span><span className="tool">DISABILITY INCLUSION</span><span className="tool">RESEARCH &amp; INNOVATION</span></div>
+              </div>
+              <div className="field-note-gallery" aria-label="Images from Francis Onyema Chinenyeze's India training reflection">
+                <figure><img src="/india-training/india-training-introduction.png" alt="Screenshot of the India training reflection introducing the Instalimb, ALIMCO and Jaipur Foot visits" loading="lazy" /><figcaption><span className="mono">01 / TRAINING</span><br />A new view of digital prosthetics in practice.</figcaption></figure>
+                <figure><img src="/india-training/india-training-alimco.png" alt="Screenshot of the India training reflection about visiting ALIMCO in Faridabad and learning about disability identification systems" loading="lazy" /><figcaption><span className="mono">02 / ALIMCO</span><br />Systems that make disability support more accessible.</figcaption></figure>
+                <figure><img src="/india-training/india-training-reflection.png" alt="Screenshot of the India training reflection about Jaipur Foot research, innovation and prosthetic feet" loading="lazy" /><figcaption><span className="mono">03 / JAIPUR</span><br />Research translated into better walking experiences.</figcaption></figure>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="section practice-section">
           <div className="container-wide">
-            <div className="section-heading"><span className="eyebrow">04 / Working principles</span><div><h2 className="display">Make the evidence useful.</h2><p>Across the portfolio, three threads recur: understand the person, make carefully, and keep learning from what happens next.</p></div></div>
+            <div className="section-heading"><span className="eyebrow">05 / Working principles</span><div><h2 className="display">Make the evidence useful.</h2><p>Across the portfolio, three threads recur: understand the person, make carefully, and keep learning from what happens next.</p></div></div>
             <div className="practice-grid">
               <div className="practice-card"><span className="practice-number">01</span><h3>Patient-centred reasoning</h3><p>Feedback about comfort, pressure, sitting and security is treated as part of the clinical picture — alongside observation and assessment.</p><div className="tools"><span className="tool">SHARED DECISION-MAKING</span><span className="tool">FUNCTIONAL NEEDS</span></div></div>
               <div className="practice-card"><span className="practice-number">02</span><h3>Digital, not detached</h3><p>3D scanning, modelling and digital fabrication are approached as tools for better individualisation, not replacements for clinical judgement.</p><div className="tools"><span className="tool">3D SCANNING</span><span className="tool">MODELLING</span><span className="tool">FABRICATION</span></div></div>
@@ -226,7 +250,7 @@ function App() {
 
         <section className="contact" id="contact">
           <div className="container-wide contact-grid">
-            <div><div className="eyebrow">05 / Next step</div><h2 className="display">Let’s talk about the work.</h2><p>For a clinical collaboration, practice education conversation or a role where thoughtful making matters, I would welcome a considered conversation.</p><div className="contact-links"><a className="contact-link" href="/Chinenyeze-Francis-Onyema-CV.pdf" download aria-label="Download Francis Onyema Chinenyeze's CV">Download my CV <Download size={16} /></a><a className="contact-link" href="mailto:chinenyezefrancis@gmail.com" aria-label="Email Francis Onyema Chinenyeze">chinenyezefrancis@gmail.com <ExternalLink size={16} /></a><a className="contact-link" href="https://www.linkedin.com/in/chinenyeze-francis-onyema-" target="_blank" rel="noreferrer" aria-label="Open Francis Onyema Chinenyeze's LinkedIn profile">View my LinkedIn profile <ExternalLink size={16} /></a></div></div>
+            <div><div className="eyebrow">06 / Next step</div><h2 className="display">Let’s talk about the work.</h2><p>For a clinical collaboration, practice education conversation or a role where thoughtful making matters, I would welcome a considered conversation.</p><div className="contact-links"><a className="contact-link" href="/Chinenyeze-Francis-Onyema-CV.pdf" download aria-label="Download Francis Onyema Chinenyeze's CV">Download my CV <Download size={16} /></a><a className="contact-link" href="mailto:chinenyezefrancis@gmail.com" aria-label="Email Francis Onyema Chinenyeze">chinenyezefrancis@gmail.com <ExternalLink size={16} /></a><a className="contact-link" href="https://www.linkedin.com/in/chinenyeze-francis-onyema-" target="_blank" rel="noreferrer" aria-label="Open Francis Onyema Chinenyeze's LinkedIn profile">View my LinkedIn profile <ExternalLink size={16} /></a></div></div>
             <div className="contact-note"><span className="mono">A NOTE ON EVIDENCE</span><br /><br />This presentation is based on Francis Onyema Chinenyeze’s CPD portfolio and reflective entry. Synthetic diagrams are labelled as explanatory representations. No patient-identifying imagery, fabricated testimonials or unverified outcome claims are used.</div>
           </div>
         </section>
